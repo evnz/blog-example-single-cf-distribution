@@ -57,6 +57,11 @@ $ yarn cdk deploy
 
 5. Now you can delete the stack and remove the CDK bootstrap
 
+```
+Go to S3 Web Console and remove the content inside the S3 bucket we created (should just be the index.html file)
+We can't delete a non-empty bucket so we will just have to manually empty it out first.
+```
+
 ```shell
 $ yarn cdk destroy
 ...
