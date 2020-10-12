@@ -65,7 +65,7 @@ We can't delete a non-empty bucket so we will just have to manually empty it out
 ```shell
 $ yarn cdk destroy
 ...
-# And you should see some error about Lambda@Edge (at this point you will have to wait for Lambda@Edge to be removed from all the cache locations and then manually delete the stack from the Cloudformation console - yes I know it sucks but caching is hard)
+# And you may see some error about Lambda@Edge (at this point you will have to wait for Lambda@Edge to be removed from all the cache locations and then manually delete the stack from the Cloudformation console - yes I know it sucks but caching is hard)
 ```
 
 ```
