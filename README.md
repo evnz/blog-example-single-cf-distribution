@@ -1,6 +1,6 @@
 # Blog example: Single CloudFront Distribution for both your S3 Web App and API Gateway backend
 
-Example of single Amazon CloudFront distribution for both your web app hosted on S3 bucket and API Gateway backend
+Example of a single Amazon CloudFront distribution for both your web app hosted on S3 bucket and API Gateway backend
 
 [Link to blog](https://dev.to/evnz/single-cloudfront-distribution-for-s3-web-app-and-api-gateway-15c3)
 
