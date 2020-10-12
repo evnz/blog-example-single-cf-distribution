@@ -8,6 +8,8 @@ This example uses AWS CDK to build out a working example of a single CloudFront 
 
 ## Deployment
 
+**CAUTION**: This stack contains a Lambda@Edge resource which may take some time to delete (you also may see errors requiring manual intenvention using CDK destroy)
+
 0. Prequisites
 
    - AWS account with permissions to create CloudFront, S3 and API GatewayV2 resources and everyting inbetween (IAM etc)
@@ -57,6 +59,8 @@ $ yarn cdk deploy
 
 ```shell
 $ yarn cdk destroy
+...
+# And you should see some error about Lambda@Edge (at this point you will have to wait for Lambda@Edge to be removed from all the cache locations and then manually delete the stack from the Cloudformation console - yes I know it sucks but caching is hard)
 ```
 
 ```
